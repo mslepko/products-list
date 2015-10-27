@@ -1,0 +1,18 @@
+INSERT INTO Category VALUES
+(NULL, "Antifreeze", 1, NULL, NOW(), NOW()),
+(NULL, "Wiper Blades", 1, NULL, NOW(), NOW()),
+(NULL, "Batteries", 1, NULL, NOW(), NOW()),
+(NULL, "Bulbs", 1, NULL, NOW(), NOW()),
+(NULL, "Hand Care", 1, NULL, NOW(), NOW()),
+(NULL, "Cleaning", 1, NULL, NOW(), NOW()),
+(NULL, "Protection", 1, NULL, NOW(), NOW()),
+(NULL, "Screenwash", 1, NULL, NOW(), NOW()),
+(NULL, "Brake Fluid & Cleaner", 1, NULL, NOW(), NOW()),
+(NULL, "Greases", 1, NULL, NOW(), NOW()),
+(NULL, "Sealants", 1, NULL, NOW(), NOW()),
+(NULL, "Adhesives", 1, NULL, NOW(), NOW()),
+(NULL, "Sprays & Fluids", 1, NULL, NOW(), NOW()),
+(NULL, "Valeting", 1, NULL, NOW(), NOW()),
+(NULL, "Cable Ties", 1, NULL, NOW(), NOW()),
+(NULL, "Oil Absorbents", 1, NULL, NOW(), NOW()),
+(NULL, "Lubricants", 1, NULL, NOW(), NOW());
