@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule    ^category/?([0-9]+)?$    index.php?category=$1    [NC,L]
+RewriteRule    ^product/?([0-9]+)?$    index.php?product=$1    [NC,L]
+
+#Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#Prevent directory listings
+Options All -Indexes
