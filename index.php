@@ -53,7 +53,7 @@ if (isset($_GET['category'])) {
         } elseif(isset($_GET['product'])) {
             include __DIR__ . '/app/views/product.php';
         } else {
-            echo '<p>Dashboard</p>';
+            include __DIR__ . '/app/views/dashboard.php';
         }
         ?>
         </div>
